@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>home.svg</file>
+        <file>menu.svg</file>
+        <file>package.svg</file>
+        <file>shopping-cart.svg</file>
+        <file>truck.svg</file>
+        <file>user.svg</file>
+        <file>user-minus.svg</file>
+        <file>user-plus.svg</file>
+        <file>users.svg</file>
+    </qresource>
+</RCC>
