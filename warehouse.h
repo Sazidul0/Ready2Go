@@ -3,6 +3,8 @@
 
 #include <QWidget>
 #include "mainmenu.h"
+#include <QSqlDatabase>
+#include <QSqlQuery>
 
 
 namespace Ui {
@@ -25,6 +27,7 @@ private slots:
 private:
     Ui::Warehouse *ui;
     QString warehouse_login_name,warehouse_login_pass;
+    QSqlDatabase db6;
 };
 
 #endif // WAREHOUSE_H

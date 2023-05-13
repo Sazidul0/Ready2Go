@@ -6,6 +6,7 @@ Admin::Admin(QWidget *parent) :
     ui(new Ui::Admin)
 {
     ui->setupUi(this);
+
 }
 
 Admin::~Admin()

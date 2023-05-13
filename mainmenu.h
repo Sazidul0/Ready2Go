@@ -6,6 +6,8 @@
 #include "deliveryboy.h"
 #include "seller.h"
 #include "warehouse.h"
+#include <QSqlDatabase>
+#include <QSqlQuery>
 
 #include <QMainWindow>
 
@@ -34,5 +36,6 @@ private slots:
 
 private:
     Ui::MainMenu *ui;
+    QSqlDatabase db3;
 };
 #endif // MAINMENU_H

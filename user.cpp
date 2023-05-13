@@ -6,6 +6,10 @@ User::User(QWidget *parent) :
     ui(new Ui::User)
 {
     ui->setupUi(this);
+    db5= QSqlDatabase::addDatabase("QSQLITE");
+    db5.setDatabaseName("S:/QTT/Ready2Go/Database.db");
+    qDebug() <<db5.open();
+
 }
 
 User::~User()
@@ -29,15 +33,89 @@ void User::on_User_login_Button_clicked()
 {
     user_login_name=ui->User_login_Intput_UserName->text();
     user_login_pass=ui->User_login_Input_Password->text();
-    if( user_login_name=="user" &&  user_login_pass=="123")
+
+    QSqlQuery query;
+    query.exec("SELECT *FROM user WHERE email='"+user_login_name+"' AND password='"+user_login_pass+"'");
+    if(query.next())
     {
         ui->User_Login->setCurrentIndex(1);
-
     }
     else{
         QMessageBox::information(this,"Login","Invalid UserName or Password!");
     }
     ui->User_login_Intput_UserName->clear();
     ui->User_login_Input_Password->clear();
+}
+
+
+void User::on_User_goto_singup_Button_2_clicked()
+{
+
+        ui->User_Login->setCurrentIndex(3);
+
+}
+
+
+void User::on_pushButton_clicked()
+{
+       user_signup_name= ui->user_signup_input_name->text();
+        user_signup_email=ui->user_signup_input_name->text();
+       user_signup_contact=ui->user_signup_input_contact->text();
+        user_signup_password=ui->user_signup_input_pass->text();
+       user_signup_address=ui->user_signup_input__address->text();
+
+
+    QSqlQuery query;
+    query.exec("INSERT INTO user (name,email,address,contact,password) VALUES('"+user_signup_name+"', '"+user_signup_email+"','"+user_signup_address+"','"+user_signup_contact+"','"+user_signup_password+"')");
+    if(query.next())
+    {
+        ui->User_Login->setCurrentIndex(1);
+    }
+    else
+    {
+
+        QMessageBox::information(this,"SignUp","SignUp Successfull");
+    }
+    ui->user_signup_input_name->clear();
+    ui->user_signup_input_name->clear();
+    ui->user_signup_input_contact->clear();
+    ui->user_signup_input_pass->clear();
+
+
+}
+
+
+void User::on_user_signup_input_name_linkActivated(const QString &link)
+{
+
+}
+
+void User::on_user_signup_button_clicked()
+{
+
+    user_signup_name= ui->user_signup_input_name->text();
+    user_signup_email=ui->user_signup_input_name->text();
+    user_signup_contact=ui->user_signup_input_contact->text();
+    user_signup_password=ui->user_signup_input_pass->text();
+    user_signup_address=ui->user_signup_input__address->text();
+
+
+    QSqlQuery query;
+    query.exec("INSERT INTO user (name,email,address,contact,password) VALUES('"+user_signup_name+"', '"+user_signup_email+"','"+user_signup_address+"','"+user_signup_contact+"','"+user_signup_password+"')");
+    if(query.next())
+    {
+        ui->User_Login->setCurrentIndex(1);
+    }
+    else
+    {
+
+        QMessageBox::information(this,"SignUp","SignUp Successfull");
+    }
+    ui->user_signup_input_name->clear();
+    ui->user_signup_input_name->clear();
+    ui->user_signup_input_contact->clear();
+    ui->user_signup_input_pass->clear();
+
+
 }
 

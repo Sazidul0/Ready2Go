@@ -4,6 +4,9 @@
 #include <QWidget>
 #include<QMessageBox>
 #include<QDebug>
+#include <QSqlDatabase>
+#include <QSqlQuery>
+
 #include "mainmenu.h"
 
 namespace Ui {
@@ -28,6 +31,7 @@ private slots:
 private:
     Ui::DeliveryBoy *ui;
     QString  DeliveryBoy_input_login_input_pass,DeliveryBoy_input_login_email;
+    QSqlDatabase db2;
 };
 
 #endif // DELIVERYBOY_H

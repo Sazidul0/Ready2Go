@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="currentIndex">
-    <number>0</number>
+    <number>2</number>
    </property>
    <widget class="QWidget" name="admi_login">
     <widget class="QLabel" name="Background_Image">
@@ -168,6 +168,9 @@ border-radius: 10px</string>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(255, 255, 255);
 border-radius: 10px</string>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>

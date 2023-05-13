@@ -2,6 +2,9 @@
 #define ADMIN_H
 #include<QMessageBox>
 #include<QDebug>
+#include <QSqlDatabase>
+#include <QSqlQuery>
+
 
 #include "mainmenu.h"
 
@@ -29,6 +32,7 @@ private slots:
 private:
     Ui::Admin *ui;
     QString admin_username, admin_userpass;
+    QSqlDatabase db;
 };
 
 #endif // ADMIN_H

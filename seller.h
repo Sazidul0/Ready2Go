@@ -3,6 +3,9 @@
 
 #include <QWidget>
 #include "mainmenu.h"
+#include <QSqlDatabase>
+#include <QSqlQuery>
+
 
 namespace Ui {
 class Seller;
@@ -24,6 +27,7 @@ private slots:
 private:
     Ui::Seller *ui;
     QString seller_login_email,seller_login_pass;
+    QSqlDatabase db4;
 };
 
 #endif // SELLER_H

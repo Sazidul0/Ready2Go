@@ -3,6 +3,9 @@
 
 #include <QWidget>
 #include "mainmenu.h"
+#include <QSqlDatabase>
+#include <QSqlQuery>
+
 
 namespace Ui {
 class User;
@@ -21,9 +24,18 @@ private slots:
 
     void on_BackToMenu_clicked();
 
+    void on_User_goto_singup_Button_2_clicked();
+
+    void on_pushButton_clicked();
+
+    void on_user_signup_input_name_linkActivated(const QString &link);
+
+    void on_user_signup_button_clicked();
+
 private:
     Ui::User *ui;
-    QString user_login_name,user_login_pass;
+    QString user_login_name,user_login_pass,user_signup_name,user_signup_email,user_signup_password,user_signup_contact,user_signup_address;
+    QSqlDatabase db5;
 
 };
 
