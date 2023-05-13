@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="currentIndex">
-    <number>1</number>
+    <number>0</number>
    </property>
    <widget class="QWidget" name="warehouse_login">
     <widget class="QLabel" name="Background_Image">
@@ -73,7 +73,6 @@
       <property name="font">
        <font>
         <pointsize>15</pointsize>
-        <weight>75</weight>
         <bold>true</bold>
        </font>
       </property>
@@ -99,7 +98,6 @@
        <property name="font">
         <font>
          <pointsize>20</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -164,7 +162,7 @@ border-radius: 10px</string>
        <property name="geometry">
         <rect>
          <x>100</x>
-         <y>390</y>
+         <y>350</y>
          <width>151</width>
          <height>51</height>
         </rect>
@@ -172,7 +170,6 @@ border-radius: 10px</string>
        <property name="font">
         <font>
          <pointsize>15</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -193,6 +190,40 @@ QPushButton#warehouse_login_Button:pressed{
        </property>
        <property name="text">
         <string>Login</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="warehouse_goto_signup_Button_2">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>420</y>
+         <width>151</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#warehouse_goto_signup_Button_2{	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(24, 24, 27, 219), stop:1 rgba(0, 0, 0, 226));
+	color:rgba(255, 255, 255, 210);
+	border-radius:5px;
+}
+QPushButton#warehouse_goto_signup_Button_2:hover{	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(86, 86, 86, 219), stop:1 rgba(180, 180, 181, 226));
+}
+QPushButton#warehouse_goto_signup_Button_2:pressed{	
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(105, 118, 132, 200);
+}</string>
+       </property>
+       <property name="text">
+        <string>SignUp</string>
        </property>
       </widget>
      </widget>
@@ -249,7 +280,6 @@ color: rgb(255, 255, 255);</string>
        <property name="font">
         <font>
          <pointsize>14</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -297,7 +327,6 @@ color: rgb(255, 255, 255);</string>
        <property name="font">
         <font>
          <pointsize>12</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -333,7 +362,6 @@ background-color: rgb(246, 218, 232);
        <property name="font">
         <font>
          <pointsize>12</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -369,7 +397,6 @@ background-color: rgb(246, 218, 232);
        <property name="font">
         <font>
          <pointsize>12</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -405,7 +432,6 @@ background-color: rgb(246, 218, 232);
        <property name="font">
         <font>
          <pointsize>12</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>

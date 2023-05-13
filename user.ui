@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QStackedWidget" name="Login">
+  <widget class="QStackedWidget" name="User_Login">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -73,7 +73,6 @@
       <property name="font">
        <font>
         <pointsize>15</pointsize>
-        <weight>75</weight>
         <bold>true</bold>
        </font>
       </property>
@@ -99,7 +98,6 @@
        <property name="font">
         <font>
          <pointsize>20</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -172,20 +170,19 @@ border-radius: 10px</string>
        <property name="font">
         <font>
          <pointsize>15</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">QPushButton#Admin_login_Button{	
+        <string notr="true">QPushButton#User_login_Button{	
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(24, 24, 27, 219), stop:1 rgba(0, 0, 0, 226));
 	color:rgba(255, 255, 255, 210);
 	border-radius:5px;
 }
-QPushButton#Admin_login_Button:hover{	
+QPushButton#User_login_Button:hover{	
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(86, 86, 86, 219), stop:1 rgba(180, 180, 181, 226));
 }
-QPushButton#Admin_login_Button:pressed{	
+QPushButton#User_login_Button:pressed{	
 	padding-left:5px;
 	padding-top:5px;
 	background-color:rgba(105, 118, 132, 200);
@@ -249,7 +246,6 @@ color: rgb(255, 255, 255);</string>
        <property name="font">
         <font>
          <pointsize>14</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -297,7 +293,6 @@ color: rgb(255, 255, 255);</string>
        <property name="font">
         <font>
          <pointsize>12</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -333,7 +328,6 @@ background-color: rgb(246, 218, 232);
        <property name="font">
         <font>
          <pointsize>12</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -369,7 +363,6 @@ background-color: rgb(246, 218, 232);
        <property name="font">
         <font>
          <pointsize>12</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -405,7 +398,6 @@ background-color: rgb(246, 218, 232);
        <property name="font">
         <font>
          <pointsize>12</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>

@@ -2,6 +2,10 @@
 #define MAINMENU_H
 
 #include "admin.h"
+#include "user.h"
+#include "deliveryboy.h"
+#include "seller.h"
+#include "warehouse.h"
 
 #include <QMainWindow>
 
@@ -19,6 +23,14 @@ public:
 
 private slots:
     void on_pushButton_admin_clicked();
+
+    void on_pushButton_user_clicked();
+
+    void on_pushButton_seller_clicked();
+
+    void on_pushButton_warehouse_clicked();
+
+    void on_pushButton_deliveryBoy_clicked();
 
 private:
     Ui::MainMenu *ui;
