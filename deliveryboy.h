@@ -28,9 +28,11 @@ private slots:
 
     void on_BackToMenu_clicked();
 
+    void on_DeliveryBoy_signup_button_clicked();
+
 private:
     Ui::DeliveryBoy *ui;
-    QString  DeliveryBoy_input_login_input_pass,DeliveryBoy_input_login_email;
+    QString  DeliveryBoy_input_login_input_pass,DeliveryBoy_input_login_email,deliveryboy_signup_name,deliveryboy_signup_email,deliveryboy_signup_address,deliveryboy_signup_contact,deliveryboy_signup_password;
     QSqlDatabase db2;
 };
 
