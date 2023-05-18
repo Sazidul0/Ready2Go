@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="currentIndex">
-    <number>3</number>
+    <number>1</number>
    </property>
    <widget class="QWidget" name="user_login"/>
    <widget class="QWidget" name="User_Login_2">
@@ -404,74 +404,111 @@ background-color: rgb(246, 218, 232);
     </widget>
    </widget>
    <widget class="QWidget" name="UserSignUp">
-    <widget class="QPushButton" name="user_signup_button">
-     <property name="geometry">
-      <rect>
-       <x>234</x>
-       <y>420</y>
-       <width>161</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>SignUp</string>
-     </property>
-    </widget>
     <widget class="QLineEdit" name="user_signup_input_name">
      <property name="geometry">
       <rect>
-       <x>202</x>
-       <y>70</y>
-       <width>171</width>
-       <height>41</height>
+       <x>350</x>
+       <y>90</y>
+       <width>251</width>
+       <height>51</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>Name</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="DeliveryBoy_Heading_3">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>10</y>
+       <width>271</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>User SignUp</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
      </property>
     </widget>
     <widget class="QLineEdit" name="user_signup_input_email">
      <property name="geometry">
       <rect>
-       <x>212</x>
-       <y>140</y>
-       <width>151</width>
-       <height>31</height>
+       <x>350</x>
+       <y>160</y>
+       <width>251</width>
+       <height>51</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>Email</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="user_signup_input_pass">
      <property name="geometry">
       <rect>
-       <x>210</x>
-       <y>270</y>
-       <width>161</width>
-       <height>41</height>
+       <x>350</x>
+       <y>370</y>
+       <width>251</width>
+       <height>51</height>
       </rect>
      </property>
-    </widget>
-    <widget class="QLineEdit" name="user_signup_input__address">
-     <property name="geometry">
-      <rect>
-       <x>230</x>
-       <y>190</y>
-       <width>113</width>
-       <height>22</height>
-      </rect>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
      </property>
-    </widget>
-    <widget class="QLineEdit" name="user_signup_input_contact">
-     <property name="geometry">
-      <rect>
-       <x>230</x>
-       <y>220</y>
-       <width>113</width>
-       <height>22</height>
-      </rect>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>Password</string>
      </property>
     </widget>
     <widget class="QPushButton" name="BackToMenu_3">
      <property name="geometry">
       <rect>
-       <x>60</x>
-       <y>540</y>
+       <x>70</x>
+       <y>500</y>
        <width>93</width>
        <height>28</height>
       </rect>
@@ -482,6 +519,90 @@ color: rgb(255, 255, 255);</string>
      </property>
      <property name="text">
       <string>Back</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="user_signup_input__address">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>230</y>
+       <width>251</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>Address</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="user_signup_input_contact">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>300</y>
+       <width>251</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>Contact</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="on_user_signup_button">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>430</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#DeliveryBoy_signup_button{	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(24, 24, 27, 219), stop:1 rgba(0, 0, 0, 226));
+	color:rgba(255, 255, 255, 210);
+	border-radius:5px;
+}
+QPushButton#DeliveryBoy_signup_button:hover{	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(86, 86, 86, 219), stop:1 rgba(180, 180, 181, 226));
+}
+QPushButton#DeliveryBoy_signup_button:pressed{	
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(105, 118, 132, 200);
+}</string>
+     </property>
+     <property name="text">
+      <string>SignUp</string>
      </property>
     </widget>
    </widget>

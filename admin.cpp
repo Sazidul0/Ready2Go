@@ -6,6 +6,7 @@ Admin::Admin(QWidget *parent) :
     ui(new Ui::Admin)
 {
     ui->setupUi(this);
+    ui->Login->setCurrentIndex(0);
 
 }
 
@@ -41,5 +42,20 @@ void Admin::on_Admin_login_Button_clicked()
     }
     ui->Admin_login_Input_Password->clear();
     ui->Admin_login_Input_UserName->clear();
+}
+
+
+void Admin::on_Menu_Button_clicked()
+{
+        ui->Login->setCurrentIndex(0);
+}
+
+
+void Admin::on_BackToMenu_2_clicked()
+{
+        this->hide();
+        MainMenu *main_window;
+        main_window = new MainMenu();
+        main_window->show();
 }
 

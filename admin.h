@@ -29,6 +29,10 @@ private slots:
 
     void on_Admin_login_Button_clicked();
 
+    void on_Menu_Button_clicked();
+
+    void on_BackToMenu_2_clicked();
+
 private:
     Ui::Admin *ui;
     QString admin_username, admin_userpass;

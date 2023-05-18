@@ -75,7 +75,7 @@ void User::on_user_signup_button_clicked()
 {
 
     user_signup_name= ui->user_signup_input_name->text();
-    user_signup_email=ui->user_signup_input_name->text();
+    user_signup_email=ui->user_signup_input_email->text();
     user_signup_contact=ui->user_signup_input_contact->text();
     user_signup_password=ui->user_signup_input_pass->text();
     user_signup_address=ui->user_signup_input__address->text();
@@ -96,7 +96,7 @@ void User::on_user_signup_button_clicked()
         ui->User_Login->setCurrentIndex(1);
     }
     ui->user_signup_input_name->clear();
-    ui->user_signup_input_name->clear();
+    ui->user_signup_input_email->clear();
     ui->user_signup_input_contact->clear();
     ui->user_signup_input_pass->clear();
 
@@ -115,4 +115,39 @@ void User::on_BackToMenu_3_clicked()
 {
      ui->User_Login->setCurrentIndex(1);
 }
+
+
+void User::on_on_user_signup_button_clicked()
+{
+     user_signup_name= ui->user_signup_input_name->text();
+     user_signup_email=ui->user_signup_input_email->text();
+     user_signup_contact=ui->user_signup_input_contact->text();
+     user_signup_password=ui->user_signup_input_pass->text();
+     user_signup_address=ui->user_signup_input__address->text();
+
+
+     QSqlQuery query;
+     query.exec("INSERT INTO user (name,email,address,contact,password) VALUES('"+user_signup_name+"', '"+user_signup_email+"','"+user_signup_address+"','"+user_signup_contact+"','"+user_signup_password+"')");
+     if(query.next())
+     {
+
+
+
+     }
+     else
+     {
+
+        QMessageBox::information(this,"SignUp","SignUp Successfull");
+        ui->User_Login->setCurrentIndex(1);
+     }
+     ui->user_signup_input_name->clear();
+     ui->user_signup_input_email->clear();
+     ui->user_signup_input_contact->clear();
+     ui->user_signup_input_pass->clear();
+
+
+
+}
+
+
 
