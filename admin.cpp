@@ -30,7 +30,7 @@ void Admin::on_BackToMenu_clicked()
 
 void Admin::on_Admin_login_Button_clicked()
 {
-    admin_username = ui->Admin_login_Intput_UserName->text();
+    admin_username = ui->Admin_login_Input_UserName->text();
     admin_userpass = ui->Admin_login_Input_Password->text();
 
     if(admin_username == "admin" && admin_userpass == "admin"){
@@ -40,6 +40,6 @@ void Admin::on_Admin_login_Button_clicked()
         QMessageBox::information(this,"Login","Invalid UserName or Password!");
     }
     ui->Admin_login_Input_Password->clear();
-    ui->Admin_login_Intput_UserName->clear();
+    ui->Admin_login_Input_UserName->clear();
 }
 

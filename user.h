@@ -32,6 +32,10 @@ private slots:
 
     void on_user_signup_button_clicked();
 
+    void on_Menu_Button_clicked();
+
+    void on_BackToMenu_3_clicked();
+
 private:
     Ui::User *ui;
     QString user_login_name,user_login_pass,user_signup_name,user_signup_email,user_signup_password,user_signup_contact,user_signup_address;

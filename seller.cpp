@@ -6,6 +6,7 @@ Seller::Seller(QWidget *parent) :
     ui(new Ui::Seller)
 {
     ui->setupUi(this);
+     ui->Login->setCurrentIndex(0);
 }
 
 Seller::~Seller()
@@ -36,5 +37,11 @@ void Seller::on_seller_login_Button_clicked()
     }
     ui->seller_login_Input_Password->clear();
     ui->seller_login_Intput_UserName->clear();
+}
+
+
+void Seller::on_Menu_Button_clicked()
+{
+    ui->Login->setCurrentIndex(0);
 }
 

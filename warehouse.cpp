@@ -6,6 +6,7 @@ Warehouse::Warehouse(QWidget *parent) :
     ui(new Ui::Warehouse)
 {
     ui->setupUi(this);
+      ui->Login->setCurrentIndex(0);
 }
 
 Warehouse::~Warehouse()
@@ -38,5 +39,11 @@ void Warehouse::on_warehouse_login_Button_clicked()
     ui->warehouse_login_Input_Password->clear();
 
 
+}
+
+
+void Warehouse::on_Menu_Button_clicked()
+{
+     ui->Login->setCurrentIndex(0);
 }
 

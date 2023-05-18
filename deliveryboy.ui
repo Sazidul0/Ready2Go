@@ -22,228 +22,175 @@
      <height>701</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 255, 0);</string>
+   </property>
    <property name="currentIndex">
-    <number>2</number>
+    <number>0</number>
    </property>
    <widget class="QWidget" name="DeliveryBoy_login">
-    <widget class="QLabel" name="Background_Image">
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 127);</string>
+    </property>
+    <widget class="QPushButton" name="DeliveryBoy_signup_button_2">
      <property name="geometry">
       <rect>
-       <x>-70</x>
-       <y>0</y>
-       <width>1071</width>
-       <height>700</height>
+       <x>380</x>
+       <y>340</y>
+       <width>151</width>
+       <height>51</height>
       </rect>
      </property>
-     <property name="text">
-      <string/>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <bold>true</bold>
+      </font>
      </property>
-     <property name="pixmap">
-      <pixmap>C:/Users/User/Downloads/1200.png</pixmap>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#DeliveryBoy_signup_button{	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(24, 24, 27, 219), stop:1 rgba(0, 0, 0, 226));
+	color:rgba(255, 255, 255, 210);
+	border-radius:5px;
+}
+QPushButton#DeliveryBoy_signup_button:hover{	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(86, 86, 86, 219), stop:1 rgba(180, 180, 181, 226));
+}
+QPushButton#DeliveryBoy_signup_button:pressed{	
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(105, 118, 132, 200);
+}</string>
+     </property>
+     <property name="text">
+      <string>LogIn</string>
      </property>
     </widget>
-    <widget class="QFrame" name="frame">
+    <widget class="QLabel" name="DeliveryBoy_Heading_4">
      <property name="geometry">
       <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>1001</width>
-       <height>738</height>
+       <x>330</x>
+       <y>130</y>
+       <width>271</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>LogIn</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="DeliveryBoy_login_Input_Password">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>280</y>
+       <width>251</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>Password</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="DeliveryBoy_login_Intput_UserName">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>210</y>
+       <width>251</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>Email</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BackToMenu_2">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>430</y>
+       <width>93</width>
+       <height>28</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(95, 118, 112, 219), stop:1 rgba(95, 118, 112, 226));
-</string>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::StyledPanel</enum>
-     </property>
-     <property name="frameShadow">
-      <enum>QFrame::Raised</enum>
-     </property>
-     <widget class="QFrame" name="frame_3">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>70</y>
-        <width>351</width>
-        <height>541</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>15</pointsize>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border-radius: 20px
-</string>
-      </property>
-      <property name="frameShape">
-       <enum>QFrame::StyledPanel</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Raised</enum>
-      </property>
-      <widget class="QLabel" name="DeliveryBoy_Heading">
-       <property name="geometry">
-        <rect>
-         <x>70</x>
-         <y>60</y>
-         <width>221</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>20</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string>Delivery Boy</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="DeliveryBoy_login_Intput_UserName">
-       <property name="geometry">
-        <rect>
-         <x>40</x>
-         <y>150</y>
-         <width>271</width>
-         <height>51</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>10</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(255, 255, 255);
-border-radius: 10px</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-       <property name="placeholderText">
-        <string>Email or User Name</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="DeliveryBoy_login_Input_Password">
-       <property name="geometry">
-        <rect>
-         <x>40</x>
-         <y>260</y>
-         <width>271</width>
-         <height>51</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>10</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(255, 255, 255);
-border-radius: 10px</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-       <property name="placeholderText">
-        <string>Password</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="DeliveryBoy_Button">
-       <property name="geometry">
-        <rect>
-         <x>100</x>
-         <y>390</y>
-         <width>151</width>
-         <height>51</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>15</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton#DeliveryBoy_Button{	
-	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(24, 24, 27, 219), stop:1 rgba(0, 0, 0, 226));
-	color:rgba(255, 255, 255, 210);
-	border-radius:5px;
-}
-QPushButton#DeliveryBoy_Button:hover{	
-	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(86, 86, 86, 219), stop:1 rgba(180, 180, 181, 226));
-}
-QPushButton#DeliveryBoy_Button:pressed{	
-	padding-left:5px;
-	padding-top:5px;
-	background-color:rgba(105, 118, 132, 200);
-}</string>
-       </property>
-       <property name="text">
-        <string>Login</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="DeliveryBoy_Button_3">
-       <property name="geometry">
-        <rect>
-         <x>100</x>
-         <y>460</y>
-         <width>151</width>
-         <height>51</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>15</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton#DeliveryBoy_Button_3{	
-	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(24, 24, 27, 219), stop:1 rgba(0, 0, 0, 226));
-	color:rgba(255, 255, 255, 210);
-	border-radius:5px;
-}
-QPushButton#DeliveryBoy_Button_3:hover{	
-	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(86, 86, 86, 219), stop:1 rgba(180, 180, 181, 226));
-}
-QPushButton#DeliveryBoy_Button_3:pressed{	
-	padding-left:5px;
-	padding-top:5px;
-	background-color:rgba(105, 118, 132, 200);
-}</string>
-       </property>
-       <property name="text">
-        <string>SignUp</string>
-       </property>
-      </widget>
-     </widget>
-     <widget class="QPushButton" name="BackToMenu">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>630</y>
-        <width>93</width>
-        <height>28</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(0, 0, 0);
+      <string notr="true">background-color: rgb(0, 0, 0);
 color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>Back</string>
-      </property>
-     </widget>
+     </property>
+     <property name="text">
+      <string>Back</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="DeliveryBoy_signup_button_3">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>390</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#DeliveryBoy_signup_button{	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(24, 24, 27, 219), stop:1 rgba(0, 0, 0, 226));
+	color:rgba(255, 255, 255, 210);
+	border-radius:5px;
+}
+QPushButton#DeliveryBoy_signup_button:hover{	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(86, 86, 86, 219), stop:1 rgba(180, 180, 181, 226));
+}
+QPushButton#DeliveryBoy_signup_button:pressed{	
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(105, 118, 132, 200);
+}</string>
+     </property>
+     <property name="text">
+      <string>SignUp</string>
+     </property>
     </widget>
    </widget>
    <widget class="QWidget" name="seller_menu">
@@ -457,27 +404,11 @@ background-color: rgb(246, 218, 232);
       </widget>
      </widget>
     </widget>
-    <widget class="QWidget" name="main" native="true">
-     <property name="geometry">
-      <rect>
-       <x>300</x>
-       <y>0</y>
-       <width>701</width>
-       <height>701</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>12</pointsize>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(31, 35, 42);
-</string>
-     </property>
-    </widget>
    </widget>
-   <widget class="QWidget" name="page">
+   <widget class="QWidget" name="SignUp_page">
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 127);</string>
+    </property>
     <widget class="QLineEdit" name="DeliveryBoy_signup_Intput_UserName">
      <property name="geometry">
       <rect>
@@ -662,211 +593,28 @@ border-radius: 10px</string>
       <string>Contact</string>
      </property>
     </widget>
-   </widget>
-   <widget class="QWidget" name="SignUp">
-    <widget class="QFrame" name="frame_2">
+    <widget class="QPushButton" name="BackToMenu_3">
      <property name="geometry">
       <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>1001</width>
-       <height>738</height>
+       <x>120</x>
+       <y>650</y>
+       <width>93</width>
+       <height>28</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(95, 118, 112, 219), stop:1 rgba(95, 118, 112, 226));
-</string>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::StyledPanel</enum>
-     </property>
-     <property name="frameShadow">
-      <enum>QFrame::Raised</enum>
-     </property>
-     <widget class="QFrame" name="frame_4">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>70</y>
-        <width>351</width>
-        <height>541</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>15</pointsize>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border-radius: 20px
-</string>
-      </property>
-      <property name="frameShape">
-       <enum>QFrame::StyledPanel</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Raised</enum>
-      </property>
-      <widget class="QLabel" name="DeliveryBoy_Heading_2">
-       <property name="geometry">
-        <rect>
-         <x>70</x>
-         <y>60</y>
-         <width>221</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>20</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string>Delivery Boy</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="DeliveryBoy_login_Intput_UserName_2">
-       <property name="geometry">
-        <rect>
-         <x>40</x>
-         <y>150</y>
-         <width>271</width>
-         <height>51</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>10</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(255, 255, 255);
-border-radius: 10px</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-       <property name="placeholderText">
-        <string>Email or User Name</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="DeliveryBoy_login_Input_Password_2">
-       <property name="geometry">
-        <rect>
-         <x>40</x>
-         <y>260</y>
-         <width>271</width>
-         <height>51</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>10</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(255, 255, 255);
-border-radius: 10px</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-       <property name="placeholderText">
-        <string>Password</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="DeliveryBoy_Button_2">
-       <property name="geometry">
-        <rect>
-         <x>90</x>
-         <y>350</y>
-         <width>151</width>
-         <height>51</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>15</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton#DeliveryBoy_Button_2{	
-	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(24, 24, 27, 219), stop:1 rgba(0, 0, 0, 226));
-	color:rgba(255, 255, 255, 210);
-	border-radius:5px;
-}
-QPushButton#DeliveryBoy_Button_2:hover{	
-	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(86, 86, 86, 219), stop:1 rgba(180, 180, 181, 226));
-}
-QPushButton#DeliveryBoy_Button_2:pressed{	
-	padding-left:5px;
-	padding-top:5px;
-	background-color:rgba(105, 118, 132, 200);
-}</string>
-       </property>
-       <property name="text">
-        <string>Login</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="DeliveryBoy_got_SignUP_Button_3">
-       <property name="geometry">
-        <rect>
-         <x>90</x>
-         <y>430</y>
-         <width>151</width>
-         <height>51</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>15</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton#DeliveryBoy_got_SignUP_Button_3{	
-	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(24, 24, 27, 219), stop:1 rgba(0, 0, 0, 226));
-	color:rgba(255, 255, 255, 210);
-	border-radius:5px;
-}
-QPushButton#DeliveryBoy_got_SignUP_Button_3:hover{	
-	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(86, 86, 86, 219), stop:1 rgba(180, 180, 181, 226));
-}
-QPushButton#DeliveryBoy_got_SignUP_Button_3:pressed{	
-	padding-left:5px;
-	padding-top:5px;
-	background-color:rgba(105, 118, 132, 200);
-}</string>
-       </property>
-       <property name="text">
-        <string>SignUp</string>
-       </property>
-      </widget>
-     </widget>
-     <widget class="QPushButton" name="BackToMenu_2">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>630</y>
-        <width>93</width>
-        <height>28</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(0, 0, 0);
+      <string notr="true">background-color: rgb(0, 0, 0);
 color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>Back</string>
-      </property>
-     </widget>
+     </property>
+     <property name="text">
+      <string>Back</string>
+     </property>
     </widget>
+   </widget>
+   <widget class="QWidget" name="page_error">
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 170, 0);</string>
+    </property>
    </widget>
   </widget>
  </widget>
