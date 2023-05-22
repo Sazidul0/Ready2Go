@@ -66,10 +66,7 @@ void User::on_pushButton_clicked()
 }
 
 
-void User::on_user_signup_input_name_linkActivated(const QString &link)
-{
 
-}
 
 void User::on_user_signup_button_clicked()
 {
