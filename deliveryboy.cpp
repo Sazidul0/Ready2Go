@@ -71,6 +71,7 @@ void DeliveryBoy::on_DeliveryBoy_signup_button_clicked()
 
         QMessageBox::information(this,"SignUp","SignUp Successfull");
         ui->DeliveryBoy_2->setCurrentIndex(0);
+        // This is comment;
     }
     ui->DeliveryBoy_signup_Intput_UserName->clear();
     ui->DeliveryBoy_signup_Intput_email->clear();
