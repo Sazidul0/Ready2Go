@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Admin</class>
+ <widget class="QWidget" name="Admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 127);</string>
+  </property>
+  <widget class="QStackedWidget" name="Login">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>1001</width>
+     <height>701</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="admi_login">
+    <widget class="QPushButton" name="BackToMenu">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>700</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Back</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Admin_login_Input_UserName">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>230</y>
+       <width>271</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px</string>
+     </property>
+     <property name="frame">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>Email or User Name</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Admin_login_Input_Password">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>330</y>
+       <width>271</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="acceptDrops">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>Password</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Admin_login_Button">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>460</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#Admin_login_Button{	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(24, 24, 27, 219), stop:1 rgba(0, 0, 0, 226));
+	color:rgba(255, 255, 255, 210);
+	border-radius:5px;
+}
+QPushButton#Admin_login_Button:hover{	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(86, 86, 86, 219), stop:1 rgba(180, 180, 181, 226));
+}
+QPushButton#Admin_login_Button:pressed{	
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(105, 118, 132, 200);
+}</string>
+     </property>
+     <property name="text">
+      <string>Login</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Admin_login_Heading">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>130</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Admin </string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BackToMenu_2">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>630</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Back</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="admin_menu">
+    <widget class="QWidget" name="left_side" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>301</width>
+       <height>701</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(22, 25, 29);</string>
+     </property>
+     <widget class="QWidget" name="Menu" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>271</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <widget class="QPushButton" name="Menu_Button">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>10</y>
+         <width>231</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#Menu_Button{	
+	border-radius:7px;
+	background-color: rgb(246, 218, 232);
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string>  Menu</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../icons/home.svg</normaloff>../icons/home.svg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>24</width>
+         <height>24</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="Others" native="true">
+      <property name="geometry">
+       <rect>
+        <x>19</x>
+        <y>109</y>
+        <width>261</width>
+        <height>571</height>
+       </rect>
+      </property>
+      <widget class="QPushButton" name="Completed_Order">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>231</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#Completed_Order{	
+	border-radius:7px;
+background-color: rgb(246, 218, 232);
+}</string>
+       </property>
+       <property name="text">
+        <string> Completed Orders</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../icons/booking.png</normaloff>../icons/booking.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>24</width>
+         <height>24</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="Track_Order">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>90</y>
+         <width>231</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#Track_Order{	
+	border-radius:7px;
+	background-color: rgb(246, 218, 232);
+}</string>
+       </property>
+       <property name="text">
+        <string>   Track Order</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../icons/truck.svg</normaloff>../icons/truck.svg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>24</width>
+         <height>24</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="Panding_Order">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>160</y>
+         <width>231</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#Panding_Order{	
+	border-radius: 7px;
+	background-color: rgb(246, 218, 232);
+}</string>
+       </property>
+       <property name="text">
+        <string>  Pending Orders</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../icons/clipboard.png</normaloff>../icons/clipboard.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="All_Users">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>230</y>
+         <width>231</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#All_Users{	
+	border-radius: 7px;
+	background-color: rgb(246, 218, 232);
+}</string>
+       </property>
+       <property name="text">
+        <string>   All users</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../icons/users.svg</normaloff>../icons/users.svg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>24</width>
+         <height>24</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="Delivery_Boy">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>300</y>
+         <width>231</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#Delivery_Boy{	
+	border-radius: 7px;
+	background-color: rgb(246, 218, 232);
+}</string>
+       </property>
+       <property name="text">
+        <string>  Delivery Boy</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../icons/fast-delivery.png</normaloff>../icons/fast-delivery.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="All_Sellers">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>370</y>
+         <width>231</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#All_Sellers{	
+	border-radius: 7px;
+	background-color: rgb(246, 218, 232);
+}</string>
+       </property>
+       <property name="text">
+        <string>  All Sellers</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../icons/users.svg</normaloff>../icons/users.svg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>24</width>
+         <height>24</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="Available_Items">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>440</y>
+         <width>231</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#Available_Items{	
+	border-radius: 7px;
+	background-color: rgb(246, 218, 232);
+}</string>
+       </property>
+       <property name="text">
+        <string>  Available Items</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../icons/order.png</normaloff>../icons/order.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>26</width>
+         <height>26</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="All_Warehouse">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>510</y>
+         <width>231</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#All_Warehouse{	
+	border-radius: 7px;
+	background-color: rgb(246, 218, 232);
+}</string>
+       </property>
+       <property name="text">
+        <string>  All Warehouse</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../icons/warehouse.png</normaloff>../icons/warehouse.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>24</width>
+         <height>24</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

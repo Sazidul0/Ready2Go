@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>icons/add-product.png</file>
+        <file>icons/booking.png</file>
+        <file>icons/changes.png</file>
+        <file>icons/clipboard.png</file>
+        <file>icons/fast-delivery.png</file>
+        <file>icons/home.svg</file>
+        <file>icons/icons.qrc</file>
+        <file>icons/menu.svg</file>
+        <file>icons/order.png</file>
+        <file>icons/package.svg</file>
+        <file>icons/remove.png</file>
+        <file>icons/settings.svg</file>
+        <file>icons/shopping-cart.svg</file>
+        <file>icons/sold.png</file>
+        <file>icons/truck.svg</file>
+        <file>icons/user.svg</file>
+        <file>icons/user-minus.svg</file>
+        <file>icons/user-plus.svg</file>
+        <file>icons/users.svg</file>
+        <file>icons/warehouse.png</file>
+    </qresource>
+</RCC>
