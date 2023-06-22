@@ -18,173 +18,45 @@
 </string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QStackedWidget" name="stackedWidget">
+   <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>-20</y>
-      <width>991</width>
-      <height>721</height>
+      <x>320</x>
+      <y>120</y>
+      <width>351</width>
+      <height>500</height>
      </rect>
     </property>
-    <widget class="QWidget" name="page">
-     <widget class="QPushButton" name="Enter_login_menu">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>500</y>
-        <width>191</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>12</pointsize>
-        <weight>50</weight>
-        <bold>false</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">
-
-QPushButton#Enter_login_menu{	
-	background-color: rgb(85, 255, 0);
-border-radius:10px;
-}
-QPushButton#Enter_login_menu:hover{	
-	background-color:rgb(255,145,25,255)
-}</string>
-      </property>
-      <property name="text">
-       <string>Enter</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="BackgoundImage" native="true">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>991</width>
-        <height>721</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border-image: url(:/new/prefix1/icons/Delivery (2).png);</string>
-      </property>
-     </widget>
-     <zorder>BackgoundImage</zorder>
-     <zorder>Enter_login_menu</zorder>
-    </widget>
-    <widget class="QWidget" name="page_2">
-     <widget class="QLabel" name="Menue_Tittle">
-      <property name="geometry">
-       <rect>
-        <x>110</x>
-        <y>70</y>
-        <width>761</width>
-        <height>71</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>20</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);
-background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(95, 108, 102, 219), stop:1 rgba(95, 111, 112, 226));
-
-border-radius: 10px</string>
-      </property>
-      <property name="text">
-       <string>You want to Log in as?</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label">
-      <property name="geometry">
-       <rect>
-        <x>-20</x>
-        <y>0</y>
-        <width>1011</width>
-        <height>701</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="pixmap">
-       <pixmap>../../Users/User/Downloads/346102158_237809818837113_4210465471170094184_n.jpg</pixmap>
-      </property>
-     </widget>
-     <widget class="QLabel" name="MainMenuFooter">
-      <property name="geometry">
-       <rect>
-        <x>-40</x>
-        <y>670</y>
-        <width>1068</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>10</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(170, 85, 127);</string>
-      </property>
-      <property name="text">
-       <string>www.ready2go.com. All Rights Reserved</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QFrame" name="frame">
-      <property name="geometry">
-       <rect>
-        <x>300</x>
-        <y>100</y>
-        <width>351</width>
-        <height>500</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(229, 231, 235, 219), stop:1 rgba(95, 118, 112, 226));
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(229, 231, 235, 219), stop:1 rgba(95, 118, 112, 226));
 	color:rgba(255, 255, 255, 210);
 border-radius: 20px</string>
-      </property>
-      <property name="frameShape">
-       <enum>QFrame::Panel</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Plain</enum>
-      </property>
-      <widget class="QPushButton" name="pushButton_admin">
-       <property name="geometry">
-        <rect>
-         <x>60</x>
-         <y>50</y>
-         <width>231</width>
-         <height>51</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>20</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton#pushButton_admin{	
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Panel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton_admin">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>50</y>
+       <width>231</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Berlin Sans FB Demi</family>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_admin{	
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(24, 24, 27, 219), stop:1 rgba(0, 0, 0, 226));
 	color:rgba(255, 255, 255, 210);
 	border-radius:5px;
@@ -197,30 +69,30 @@ QPushButton#pushButton_admin:pressed{
 	padding-top:5px;
 	background-color:rgba(105, 118, 132, 200);
 }</string>
-       </property>
-       <property name="text">
-        <string>Admin</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_user">
-       <property name="geometry">
-        <rect>
-         <x>60</x>
-         <y>130</y>
-         <width>231</width>
-         <height>51</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>20</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton#pushButton_user{	
+     </property>
+     <property name="text">
+      <string>Admin</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_user">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>130</y>
+       <width>231</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Berlin Sans FB Demi</family>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_user{	
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(24, 24, 27, 219), stop:1 rgba(0, 0, 0, 226));
 	color:rgba(255, 255, 255, 210);
 	border-radius:5px;
@@ -233,30 +105,30 @@ QPushButton#pushButton_user:pressed{
 	padding-top:5px;
 	background-color:rgba(105, 118, 132, 200);
 }</string>
-       </property>
-       <property name="text">
-        <string>User</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_seller">
-       <property name="geometry">
-        <rect>
-         <x>60</x>
-         <y>220</y>
-         <width>231</width>
-         <height>51</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>20</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton#pushButton_seller{	
+     </property>
+     <property name="text">
+      <string>User</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_seller">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>220</y>
+       <width>231</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Berlin Sans FB Demi</family>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_seller{	
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(24, 24, 27, 219), stop:1 rgba(0, 0, 0, 226));
 	color:rgba(255, 255, 255, 210);
 	border-radius:5px;
@@ -269,30 +141,30 @@ QPushButton#pushButton_seller:pressed{
 	padding-top:5px;
 	background-color:rgba(105, 118, 132, 200);
 }</string>
-       </property>
-       <property name="text">
-        <string>Seller</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_deliveryBoy">
-       <property name="geometry">
-        <rect>
-         <x>60</x>
-         <y>310</y>
-         <width>231</width>
-         <height>51</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>20</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton#pushButton_deliveryBoy{	
+     </property>
+     <property name="text">
+      <string>Seller</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_deliveryBoy">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>310</y>
+       <width>231</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Berlin Sans FB Demi</family>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_deliveryBoy{	
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(24, 24, 27, 219), stop:1 rgba(0, 0, 0, 226));
 	color:rgba(255, 255, 255, 210);
 	border-radius:5px;
@@ -305,30 +177,30 @@ QPushButton#pushButton_deliveryBoy:pressed{
 	padding-top:5px;
 	background-color:rgba(105, 118, 132, 200);
 }</string>
-       </property>
-       <property name="text">
-        <string>Delivery Boy</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_warehouse">
-       <property name="geometry">
-        <rect>
-         <x>60</x>
-         <y>400</y>
-         <width>231</width>
-         <height>51</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>20</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton#pushButton_warehouse{	
+     </property>
+     <property name="text">
+      <string>Delivery Boy</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_warehouse">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>400</y>
+       <width>231</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Berlin Sans FB Demi</family>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_warehouse{	
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(24, 24, 27, 219), stop:1 rgba(0, 0, 0, 226));
 	color:rgba(255, 255, 255, 210);
 	border-radius:5px;
@@ -341,14 +213,81 @@ QPushButton#pushButton_warehouse:pressed{
 	padding-top:5px;
 	background-color:rgba(105, 118, 132, 200);
 }</string>
-       </property>
-       <property name="text">
-        <string>Warehouse</string>
-       </property>
-      </widget>
-     </widget>
+     </property>
+     <property name="text">
+      <string>Warehouse</string>
+     </property>
     </widget>
    </widget>
+   <widget class="QLabel" name="Menue_Tittle">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>30</y>
+      <width>761</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(95, 108, 102, 219), stop:1 rgba(95, 111, 112, 226));
+
+border-radius: 10px</string>
+    </property>
+    <property name="text">
+     <string>You want to Log in as?</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MainMenuFooter">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>660</y>
+      <width>1068</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(170, 85, 127);</string>
+    </property>
+    <property name="text">
+     <string>www.ready2go.com</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-40</y>
+      <width>1011</width>
+      <height>701</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>C:/Users/User/Downloads/346102158_237809818837113_4210465471170094184_n.jpg</pixmap>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>frame</zorder>
+   <zorder>Menue_Tittle</zorder>
+   <zorder>MainMenuFooter</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -356,7 +295,7 @@ QPushButton#pushButton_warehouse:pressed{
      <x>0</x>
      <y>0</y>
      <width>994</width>
-     <height>21</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>

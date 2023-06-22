@@ -8,7 +8,7 @@ User::User(QWidget *parent) :
 
     ui->setupUi(this);
     db5= QSqlDatabase::addDatabase("QSQLITE");
-    db5.setDatabaseName("S:/QTT/Ready2Go/Database.db");
+    db5.setDatabaseName("F:/QT/Ready2Go/Database.db");
     qDebug() <<db5.open();
        ui->User_Login->setCurrentIndex(1);
 
@@ -104,7 +104,7 @@ void User::on_user_signup_button_clicked()
 
 void User::on_Menu_Button_clicked()
 {
-    ui->User_Login->setCurrentIndex(1);
+    ui->user_right_menu->setCurrentIndex(0);
 }
 
 
@@ -147,4 +147,34 @@ void User::on_on_user_signup_button_clicked()
 }
 
 
+
+
+void User::on_Completed_Order_clicked()
+{
+    ui->user_right_menu->setCurrentIndex(1);
+}
+
+
+void User::on_Track_Order_clicked()
+{
+    ui->user_right_menu->setCurrentIndex(2);
+}
+
+
+void User::on_Cart_clicked()
+{
+    ui->user_right_menu->setCurrentIndex(4);
+}
+
+
+void User::on_All_Warehouse_clicked()
+{
+    ui->user_right_menu->setCurrentIndex(5);
+}
+
+
+void User::on_Logout_clicked()
+{
+    ui->User_Login->setCurrentIndex(1);
+}
 

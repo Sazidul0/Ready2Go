@@ -26,6 +26,14 @@ private slots:
 
     void on_Menu_Button_clicked();
 
+    void on_seller_logout_button_clicked();
+
+    void on_Add_product_clicked();
+
+    void on_Remove_product_clicked();
+
+    void on_Update_password_clicked();
+
 private:
     Ui::Seller *ui;
     QString seller_login_email,seller_login_pass;
