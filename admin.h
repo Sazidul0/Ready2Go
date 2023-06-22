@@ -4,6 +4,10 @@
 #include<QDebug>
 #include <QSqlDatabase>
 #include <QSqlQuery>
+#include <QMainWindow>
+#include <QSql>
+#include <QFileInfo>
+#include <QPushButton>
 
 
 #include "mainmenu.h"
@@ -17,6 +21,11 @@ class Admin;
 class Admin : public QWidget
 {
     Q_OBJECT
+    void connClose(){
+
+        Database.close();
+        Database.removeDatabase(QSqlDatabase::defaultConnection);
+    }
 
 public:
     explicit Admin(QWidget *parent = nullptr);
@@ -49,10 +58,18 @@ private slots:
 
     void on_All_Warehouse_clicked();
 
+    void on_Menu_Button_2_clicked();
+
+    void on_pushButton_clicked();
+
+    void on_Admin_Info_clicked();
+
+    void on_LogOut_clicked();
+
 private:
     Ui::Admin *ui;
     QString admin_username, admin_userpass;
-    QSqlDatabase db;
+    QSqlDatabase Database;
 };
 
 #endif // ADMIN_H

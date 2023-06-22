@@ -26,7 +26,7 @@
     <string notr="true">background-color: rgb(85, 255, 0);</string>
    </property>
    <property name="currentIndex">
-    <number>2</number>
+    <number>1</number>
    </property>
    <widget class="QWidget" name="DeliveryBoy_login">
     <property name="styleSheet">
@@ -278,10 +278,10 @@ QPushButton#DeliveryBoy_signup_button:pressed{
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">QPushButton#Add_product{	
+        <string notr="true">
 	border-radius:7px;
 background-color: rgb(246, 218, 232);
-}</string>
+</string>
        </property>
        <property name="text">
         <string>  All Items List</string>
@@ -313,10 +313,10 @@ background-color: rgb(246, 218, 232);
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">QPushButton#Remove_product{	
+        <string notr="true">
 	border-radius:7px;
 	background-color: rgb(246, 218, 232);
-}</string>
+</string>
        </property>
        <property name="text">
         <string>  Items To Deliver</string>
@@ -383,10 +383,9 @@ background-color: rgb(246, 218, 232);
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">QPushButton#Remove_product{	
+        <string notr="true">	
 	border-radius:7px;
-	background-color: rgb(246, 218, 232);
-}</string>
+	background-color: rgb(246, 218, 232);</string>
        </property>
        <property name="text">
         <string>  Update Status</string>
