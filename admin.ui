@@ -120,6 +120,7 @@ border-radius: 10px</string>
      <property name="font">
       <font>
        <pointsize>15</pointsize>
+       <weight>75</weight>
        <bold>true</bold>
       </font>
      </property>
@@ -151,11 +152,27 @@ QPushButton#Admin_login_Button:pressed{
        <height>41</height>
       </rect>
      </property>
+     <property name="minimumSize">
+      <size>
+       <width>221</width>
+       <height>41</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>221</width>
+       <height>41</height>
+      </size>
+     </property>
      <property name="font">
       <font>
        <pointsize>20</pointsize>
+       <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">frontsize:20px</string>
      </property>
      <property name="text">
       <string>Admin </string>
@@ -216,6 +233,7 @@ color: rgb(255, 255, 255);</string>
        <property name="font">
         <font>
          <pointsize>14</pointsize>
+         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -263,6 +281,7 @@ color: rgb(255, 255, 255);</string>
        <property name="font">
         <font>
          <pointsize>12</pointsize>
+         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -298,6 +317,7 @@ background-color: rgb(246, 218, 232);
        <property name="font">
         <font>
          <pointsize>12</pointsize>
+         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -333,6 +353,7 @@ background-color: rgb(246, 218, 232);
        <property name="font">
         <font>
          <pointsize>12</pointsize>
+         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -368,6 +389,7 @@ background-color: rgb(246, 218, 232);
        <property name="font">
         <font>
          <pointsize>12</pointsize>
+         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -403,6 +425,7 @@ background-color: rgb(246, 218, 232);
        <property name="font">
         <font>
          <pointsize>12</pointsize>
+         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -438,6 +461,7 @@ background-color: rgb(246, 218, 232);
        <property name="font">
         <font>
          <pointsize>12</pointsize>
+         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -473,6 +497,7 @@ background-color: rgb(246, 218, 232);
        <property name="font">
         <font>
          <pointsize>12</pointsize>
+         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -508,6 +533,7 @@ background-color: rgb(246, 218, 232);
        <property name="font">
         <font>
          <pointsize>12</pointsize>
+         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
