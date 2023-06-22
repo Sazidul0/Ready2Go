@@ -60,4 +60,3 @@ void MainMenu::on_pushButton_deliveryBoy_clicked()
     delivery_window->show();
 
 }
-
