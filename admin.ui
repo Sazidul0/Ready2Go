@@ -599,7 +599,7 @@ selection-background-color: rgb(255, 255, 127);</string>
       </rect>
      </property>
      <property name="currentIndex">
-      <number>1</number>
+      <number>7</number>
      </property>
      <widget class="QWidget" name="Completed_Order_2">
       <widget class="QTextBrowser" name="textBrowser">

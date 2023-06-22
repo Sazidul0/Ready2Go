@@ -26,6 +26,16 @@ private slots:
 
     void on_Menu_Button_clicked();
 
+    void on_Update_password_2_clicked();
+
+    void on_Add_product_clicked();
+
+    void on_Remove_product_clicked();
+
+    void on_Sold_items_clicked();
+
+    void on_Update_password_clicked();
+
 private:
     Ui::Warehouse *ui;
     QString warehouse_login_name,warehouse_login_pass;

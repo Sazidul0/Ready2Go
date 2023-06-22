@@ -34,6 +34,8 @@ private slots:
 
     void on_pushButton_deliveryBoy_clicked();
 
+    void on_pushButton_clicked();
+
 private:
     Ui::MainMenu *ui;
     QSqlDatabase db3;

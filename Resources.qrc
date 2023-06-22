@@ -1,4 +1,3 @@
-
 <RCC>
     <qresource prefix="/new/prefix1">
         <file>icons/add-product.png</file>
@@ -21,5 +20,6 @@
         <file>icons/user-plus.svg</file>
         <file>icons/users.svg</file>
         <file>icons/warehouse.png</file>
+        <file>icons/Delivery (2).png</file>
     </qresource>
 </RCC>
