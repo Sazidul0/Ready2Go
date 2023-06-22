@@ -20,7 +20,7 @@ Admin::Admin(QWidget *parent) :
     ui->setupUi(this);
      ui->Login->setCurrentIndex(0);
     Database= QSqlDatabase::addDatabase("QSQLITE");
-    Database.setDatabaseName("S:/QTTT/Ready2Go/Database.db");
+    Database.setDatabaseName("F:/QT/Ready2Go/Database.db");
     qDebug() <<Database.open();
 
 }
@@ -86,7 +86,7 @@ void Admin::on_Completed_Order_clicked()
         //Creating query and assigning database to it...
         QSqlQuery *qryy= new QSqlQuery(Database);
         QSqlQuery *qryy1= new QSqlQuery(Database);
-        QSqlQuery *qryy2= new QSqlQuery(Database);//Creating query and assigning database to it...
+//        QSqlQuery *qryy2= new QSqlQuery(Database);//Creating query and assigning database to it...
 
         //Preparing the queries with the necessary fetched data...
         qryy->prepare("select name from completedOrder");
