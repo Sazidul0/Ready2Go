@@ -118,24 +118,29 @@ border-radius: 10px</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>C:/Users/User/Downloads/346102158_237809818837113_4210465471170094184_n.jpg</pixmap>
+       <pixmap>../../Users/User/Downloads/346102158_237809818837113_4210465471170094184_n.jpg</pixmap>
       </property>
      </widget>
      <widget class="QLabel" name="MainMenuFooter">
       <property name="geometry">
        <rect>
-        <x>-50</x>
-        <y>700</y>
+        <x>-40</x>
+        <y>670</y>
         <width>1068</width>
         <height>41</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
       </property>
       <property name="styleSheet">
        <string notr="true">color: rgb(255, 255, 255);
 background-color: rgb(170, 85, 127);</string>
       </property>
       <property name="text">
-       <string>www.ready2go.com</string>
+       <string>www.ready2go.com. All Rights Reserved</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -145,7 +150,7 @@ background-color: rgb(170, 85, 127);</string>
       <property name="geometry">
        <rect>
         <x>300</x>
-        <y>160</y>
+        <y>100</y>
         <width>351</width>
         <height>500</height>
        </rect>
@@ -172,7 +177,7 @@ border-radius: 20px</string>
        </property>
        <property name="font">
         <font>
-         <family>Berlin Sans FB Demi</family>
+         <family>Arial</family>
          <pointsize>20</pointsize>
          <weight>75</weight>
          <bold>true</bold>
@@ -208,7 +213,7 @@ QPushButton#pushButton_admin:pressed{
        </property>
        <property name="font">
         <font>
-         <family>Berlin Sans FB Demi</family>
+         <family>Arial</family>
          <pointsize>20</pointsize>
          <weight>75</weight>
          <bold>true</bold>
@@ -244,7 +249,7 @@ QPushButton#pushButton_user:pressed{
        </property>
        <property name="font">
         <font>
-         <family>Berlin Sans FB Demi</family>
+         <family>Arial</family>
          <pointsize>20</pointsize>
          <weight>75</weight>
          <bold>true</bold>
@@ -280,7 +285,7 @@ QPushButton#pushButton_seller:pressed{
        </property>
        <property name="font">
         <font>
-         <family>Berlin Sans FB Demi</family>
+         <family>Arial</family>
          <pointsize>20</pointsize>
          <weight>75</weight>
          <bold>true</bold>
@@ -316,7 +321,7 @@ QPushButton#pushButton_deliveryBoy:pressed{
        </property>
        <property name="font">
         <font>
-         <family>Berlin Sans FB Demi</family>
+         <family>Arial</family>
          <pointsize>20</pointsize>
          <weight>75</weight>
          <bold>true</bold>
@@ -351,7 +356,7 @@ QPushButton#pushButton_warehouse:pressed{
      <x>0</x>
      <y>0</y>
      <width>994</width>
-     <height>26</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
