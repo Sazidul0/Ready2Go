@@ -381,9 +381,14 @@ background-color: rgb(246, 218, 232);
        <height>701</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
      <property name="styleSheet">
-      <string notr="true">
-background-color: rgb(170, 170, 127);</string>
+      <string notr="true">color: rgb(0,0,0);
+background-color: rgb(255, 191, 0);</string>
      </property>
      <widget class="QWidget" name="seller_main_menu">
       <widget class="QLabel" name="seller_menu_heading">
