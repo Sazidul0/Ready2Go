@@ -75,14 +75,17 @@ border-radius:10px;</string>
         <x>10</x>
         <y>-10</y>
         <width>1011</width>
-        <height>701</height>
+        <height>681</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
       </property>
       <property name="text">
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>C:/Users/User/Downloads/346102158_237809818837113_4210465471170094184_n.jpg</pixmap>
+       <pixmap>../../Users/User/Downloads/346102158_237809818837113_4210465471170094184_n.jpg</pixmap>
       </property>
      </widget>
      <widget class="QLabel" name="Menue_Tittle">
@@ -102,8 +105,8 @@ border-radius:10px;</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);
-background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(95, 108, 102, 219), stop:1 rgba(95, 111, 112, 226));
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(255, 191, 0);
 
 border-radius: 10px</string>
       </property>
@@ -118,17 +121,29 @@ border-radius: 10px</string>
       <property name="geometry">
        <rect>
         <x>-20</x>
-        <y>690</y>
+        <y>680</y>
         <width>1068</width>
-        <height>41</height>
+        <height>51</height>
        </rect>
       </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(170, 85, 127);</string>
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(255, 191, 0);</string>
       </property>
       <property name="text">
-       <string>www.ready2go.com</string>
+       <string>© All right reserved | www.ready2go.com. </string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -165,7 +180,7 @@ border-radius: 20px</string>
        </property>
        <property name="font">
         <font>
-         <family>Berlin Sans FB Demi</family>
+         <family>MS Shell Dlg 2</family>
          <pointsize>20</pointsize>
          <weight>75</weight>
          <bold>true</bold>
@@ -201,7 +216,7 @@ QPushButton#pushButton_admin:pressed{
        </property>
        <property name="font">
         <font>
-         <family>Berlin Sans FB Demi</family>
+         <family>MS Shell Dlg 2</family>
          <pointsize>20</pointsize>
          <weight>75</weight>
          <bold>true</bold>
@@ -237,7 +252,7 @@ QPushButton#pushButton_user:pressed{
        </property>
        <property name="font">
         <font>
-         <family>Berlin Sans FB Demi</family>
+         <family>MS Shell Dlg 2</family>
          <pointsize>20</pointsize>
          <weight>75</weight>
          <bold>true</bold>
@@ -273,7 +288,7 @@ QPushButton#pushButton_seller:pressed{
        </property>
        <property name="font">
         <font>
-         <family>Berlin Sans FB Demi</family>
+         <family>MS Shell Dlg 2</family>
          <pointsize>20</pointsize>
          <weight>75</weight>
          <bold>true</bold>
@@ -309,7 +324,7 @@ QPushButton#pushButton_deliveryBoy:pressed{
        </property>
        <property name="font">
         <font>
-         <family>Berlin Sans FB Demi</family>
+         <family>MS Shell Dlg 2</family>
          <pointsize>20</pointsize>
          <weight>75</weight>
          <bold>true</bold>
@@ -344,7 +359,7 @@ QPushButton#pushButton_warehouse:pressed{
      <x>0</x>
      <y>0</y>
      <width>994</width>
-     <height>26</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>

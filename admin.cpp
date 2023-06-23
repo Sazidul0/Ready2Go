@@ -20,7 +20,7 @@ Admin::Admin(QWidget *parent) :
     ui->setupUi(this);
      ui->Login->setCurrentIndex(0);
     Database= QSqlDatabase::addDatabase("QSQLITE");
-    Database.setDatabaseName("F:/QT/Ready2Go/Database.db");
+    Database.setDatabaseName("C:/University Study/Ready2GoDatabase.db");
     qDebug() <<Database.open();
 
 }

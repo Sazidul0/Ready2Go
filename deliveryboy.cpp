@@ -7,7 +7,7 @@ DeliveryBoy::DeliveryBoy(QWidget *parent) :
 {
     ui->setupUi(this);
     db2= QSqlDatabase::addDatabase("QSQLITE");
-    db2.setDatabaseName("F:/QT/Ready2Go/Database.db");
+    db2.setDatabaseName("C:/University Study/Ready2GoDatabase.db");
     qDebug() <<db2.open();
       ui->DeliveryBoy_2->setCurrentIndex(0);
 
