@@ -26,7 +26,7 @@
     </rect>
    </property>
    <property name="currentIndex">
-    <number>0</number>
+    <number>1</number>
    </property>
    <widget class="QWidget" name="admi_login">
     <widget class="QPushButton" name="BackToMenu">
@@ -52,7 +52,7 @@ color: rgb(255, 255, 255);</string>
     <widget class="QLineEdit" name="Admin_login_Input_UserName">
      <property name="geometry">
       <rect>
-       <x>240</x>
+       <x>320</x>
        <y>230</y>
        <width>271</width>
        <height>51</height>
@@ -64,8 +64,9 @@ color: rgb(255, 255, 255);</string>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 255);
-border-radius: 10px</string>
+      <string notr="true">border-radius: 10px;
+border: 2px solid black;
+color: black;</string>
      </property>
      <property name="frame">
       <bool>true</bool>
@@ -74,13 +75,13 @@ border-radius: 10px</string>
       <set>Qt::AlignCenter</set>
      </property>
      <property name="placeholderText">
-      <string>Email or User Name</string>
+      <string>User Name</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="Admin_login_Input_Password">
      <property name="geometry">
       <rect>
-       <x>240</x>
+       <x>320</x>
        <y>330</y>
        <width>271</width>
        <height>51</height>
@@ -95,8 +96,9 @@ border-radius: 10px</string>
       <bool>false</bool>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 255);
-border-radius: 10px</string>
+      <string notr="true">border-radius: 10px;
+border: 2px solid black;
+color: black;</string>
      </property>
      <property name="echoMode">
       <enum>QLineEdit::Password</enum>
@@ -111,30 +113,38 @@ border-radius: 10px</string>
     <widget class="QPushButton" name="Admin_login_Button">
      <property name="geometry">
       <rect>
-       <x>300</x>
-       <y>460</y>
-       <width>151</width>
+       <x>320</x>
+       <y>450</y>
+       <width>271</width>
        <height>51</height>
       </rect>
      </property>
      <property name="font">
       <font>
        <pointsize>15</pointsize>
+       <weight>75</weight>
        <bold>true</bold>
       </font>
      </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
      <property name="styleSheet">
       <string notr="true">QPushButton#Admin_login_Button{	
-	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(24, 24, 27, 219), stop:1 rgba(0, 0, 0, 226));
-	color:rgba(255, 255, 255, 210);
-	border-radius:5px;
+	background-color: black;
+	border-radius: 10px;
+	transition: 0.5s;
+	border: 2px solid black;
+	width: 300px;
+	color: white;
 }
 QPushButton#Admin_login_Button:hover{	
-	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(86, 86, 86, 219), stop:1 rgba(180, 180, 181, 226));
+	background-color: white;
+	color: black
 }
 QPushButton#Admin_login_Button:pressed{	
-	padding-left:5px;
-	padding-top:5px;
+	padding-left: 15px;
+	padding-top: 15px;
 	background-color:rgba(105, 118, 132, 200);
 }</string>
      </property>
@@ -145,7 +155,7 @@ QPushButton#Admin_login_Button:pressed{
     <widget class="QLabel" name="Admin_login_Heading">
      <property name="geometry">
       <rect>
-       <x>270</x>
+       <x>350</x>
        <y>130</y>
        <width>221</width>
        <height>41</height>
@@ -153,9 +163,15 @@ QPushButton#Admin_login_Button:pressed{
      </property>
      <property name="font">
       <font>
-       <pointsize>20</pointsize>
+       <family>Segoe Print</family>
+       <pointsize>36</pointsize>
+       <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
      </property>
      <property name="text">
       <string>Admin </string>
@@ -169,18 +185,50 @@ QPushButton#Admin_login_Button:pressed{
       <rect>
        <x>60</x>
        <y>630</y>
-       <width>93</width>
-       <height>28</height>
+       <width>131</width>
+       <height>41</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(0, 0, 0);
-color: rgb(255, 255, 255);</string>
+color: rgb(255, 255, 255);
+border-radius: 10px;</string>
      </property>
      <property name="text">
       <string>Back</string>
      </property>
     </widget>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1000</width>
+       <height>700</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>ArrowCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/new/prefix1/icons/Delivery (3).png);</string>
+     </property>
+    </widget>
+    <zorder>widget</zorder>
+    <zorder>BackToMenu</zorder>
+    <zorder>Admin_login_Input_UserName</zorder>
+    <zorder>Admin_login_Input_Password</zorder>
+    <zorder>Admin_login_Button</zorder>
+    <zorder>Admin_login_Heading</zorder>
+    <zorder>BackToMenu_2</zorder>
    </widget>
    <widget class="QWidget" name="admin_menu">
     <widget class="QWidget" name="left_side" native="true">
@@ -216,6 +264,7 @@ color: rgb(255, 255, 255);</string>
        <property name="font">
         <font>
          <pointsize>14</pointsize>
+         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -263,6 +312,7 @@ color: rgb(255, 255, 255);</string>
        <property name="font">
         <font>
          <pointsize>12</pointsize>
+         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -298,6 +348,7 @@ background-color: rgb(246, 218, 232);
        <property name="font">
         <font>
          <pointsize>12</pointsize>
+         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -333,6 +384,7 @@ background-color: rgb(246, 218, 232);
        <property name="font">
         <font>
          <pointsize>12</pointsize>
+         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -368,6 +420,7 @@ background-color: rgb(246, 218, 232);
        <property name="font">
         <font>
          <pointsize>12</pointsize>
+         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -403,6 +456,7 @@ background-color: rgb(246, 218, 232);
        <property name="font">
         <font>
          <pointsize>12</pointsize>
+         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -438,6 +492,7 @@ background-color: rgb(246, 218, 232);
        <property name="font">
         <font>
          <pointsize>12</pointsize>
+         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -473,6 +528,7 @@ background-color: rgb(246, 218, 232);
        <property name="font">
         <font>
          <pointsize>12</pointsize>
+         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -508,6 +564,7 @@ background-color: rgb(246, 218, 232);
        <property name="font">
         <font>
          <pointsize>12</pointsize>
+         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>

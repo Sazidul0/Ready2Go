@@ -21,5 +21,6 @@
         <file>icons/users.svg</file>
         <file>icons/warehouse.png</file>
         <file>icons/Delivery (2).png</file>
+        <file>icons/Delivery (3).png</file>
     </qresource>
 </RCC>
