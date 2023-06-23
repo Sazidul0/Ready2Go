@@ -44,6 +44,36 @@ void Warehouse::on_warehouse_login_Button_clicked()
 
 void Warehouse::on_Menu_Button_clicked()
 {
-     ui->Login->setCurrentIndex(0);
+        ui->werehouse_menu->setCurrentIndex(0);
+}
+
+
+void Warehouse::on_Update_password_2_clicked()
+{
+    ui->Login->setCurrentIndex(0);
+}
+
+
+void Warehouse::on_Add_product_clicked()
+{
+    ui->werehouse_menu->setCurrentIndex(1);
+}
+
+
+void Warehouse::on_Remove_product_clicked()
+{
+    ui->werehouse_menu->setCurrentIndex(2);
+}
+
+
+void Warehouse::on_Sold_items_clicked()
+{
+    ui->werehouse_menu->setCurrentIndex(3);
+}
+
+
+void Warehouse::on_Update_password_clicked()
+{
+    ui->werehouse_menu->setCurrentIndex(4);
 }
 

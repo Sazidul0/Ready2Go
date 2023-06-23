@@ -61,8 +61,7 @@ void MainMenu::on_pushButton_deliveryBoy_clicked()
 
 }
 
-
-void MainMenu::on_Enter_login_menu_clicked()
+void MainMenu::on_pushButton_clicked()
 {
     ui->stackedWidget->setCurrentIndex(1);
 }

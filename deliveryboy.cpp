@@ -7,7 +7,7 @@ DeliveryBoy::DeliveryBoy(QWidget *parent) :
 {
     ui->setupUi(this);
     db2= QSqlDatabase::addDatabase("QSQLITE");
-    db2.setDatabaseName("S:/QTT/Ready2Go/Database.db");
+    db2.setDatabaseName("C:/University Study/Ready2GoDatabase.db");
     qDebug() <<db2.open();
       ui->DeliveryBoy_2->setCurrentIndex(0);
 
@@ -71,7 +71,6 @@ void DeliveryBoy::on_DeliveryBoy_signup_button_clicked()
 
         QMessageBox::information(this,"SignUp","SignUp Successfull");
         ui->DeliveryBoy_2->setCurrentIndex(0);
-        // This is comment;
     }
     ui->DeliveryBoy_signup_Intput_UserName->clear();
     ui->DeliveryBoy_signup_Intput_email->clear();
@@ -113,7 +112,7 @@ void DeliveryBoy::on_DeliveryBoy_signup_button_2_clicked()
 
 void DeliveryBoy::on_Menu_Button_clicked()
 {
-    ui->DeliveryBoy_2->setCurrentIndex(0);
+    ui->Delivery_Boy_Menu->setCurrentIndex(0);
 }
 
 
@@ -126,5 +125,35 @@ void DeliveryBoy::on_BackToMenu_3_clicked()
 void DeliveryBoy::on_DeliveryBoy_signup_button_3_clicked()
 {
    ui->DeliveryBoy_2->setCurrentIndex(2);
+}
+
+
+void DeliveryBoy::on_Update_password_2_clicked()
+{
+    ui->DeliveryBoy_2->setCurrentIndex(0);
+}
+
+
+void DeliveryBoy::on_All_item_list_clicked()
+{
+    ui->Delivery_Boy_Menu->setCurrentIndex(1);
+}
+
+
+void DeliveryBoy::on_Items_to_deliver_clicked()
+{
+    ui->Delivery_Boy_Menu->setCurrentIndex(2);
+}
+
+
+void DeliveryBoy::on_Items_to_deliver_2_clicked()
+{
+    ui->Delivery_Boy_Menu->setCurrentIndex(3);
+}
+
+
+void DeliveryBoy::on_Update_password_clicked()
+{
+    ui->Delivery_Boy_Menu->setCurrentIndex(4);
 }
 

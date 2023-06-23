@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>994</width>
-    <height>728</height>
+    <height>718</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -22,17 +22,17 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>-20</y>
+      <y>-30</y>
       <width>991</width>
-      <height>721</height>
+      <height>731</height>
      </rect>
     </property>
-    <widget class="QWidget" name="page">
-     <widget class="QPushButton" name="Enter_login_menu">
+    <widget class="QWidget" name="backgrouond">
+     <widget class="QPushButton" name="pushButton">
       <property name="geometry">
        <rect>
-        <x>370</x>
-        <y>500</y>
+        <x>380</x>
+        <y>530</y>
         <width>191</width>
         <height>51</height>
        </rect>
@@ -45,42 +45,54 @@
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">
-
-QPushButton#Enter_login_menu{	
-	background-color: rgb(85, 255, 0);
-border-radius:10px;
-}
-QPushButton#Enter_login_menu:hover{	
-	background-color:rgb(255,145,25,255)
-}</string>
+       <string notr="true">background-color: rgb(170, 255, 0);
+border-radius:10px;</string>
       </property>
       <property name="text">
        <string>Enter</string>
       </property>
      </widget>
-     <widget class="QWidget" name="BackgoundImage" native="true">
+     <widget class="QWidget" name="widget" native="true">
       <property name="geometry">
        <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>991</width>
-        <height>721</height>
+        <x>-1</x>
+        <y>29</y>
+        <width>1001</width>
+        <height>691</height>
        </rect>
       </property>
       <property name="styleSheet">
        <string notr="true">border-image: url(:/new/prefix1/icons/Delivery (2).png);</string>
       </property>
      </widget>
-     <zorder>BackgoundImage</zorder>
-     <zorder>Enter_login_menu</zorder>
+     <zorder>widget</zorder>
+     <zorder>pushButton</zorder>
     </widget>
-    <widget class="QWidget" name="page_2">
+    <widget class="QWidget" name="login_system">
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>-10</y>
+        <width>1011</width>
+        <height>681</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Users/User/Downloads/346102158_237809818837113_4210465471170094184_n.jpg</pixmap>
+      </property>
+     </widget>
      <widget class="QLabel" name="Menue_Tittle">
       <property name="geometry">
        <rect>
-        <x>110</x>
-        <y>70</y>
+        <x>140</x>
+        <y>60</y>
         <width>761</width>
         <height>71</height>
        </rect>
@@ -93,8 +105,8 @@ QPushButton#Enter_login_menu:hover{
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);
-background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(95, 108, 102, 219), stop:1 rgba(95, 111, 112, 226));
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(255, 191, 0);
 
 border-radius: 10px</string>
       </property>
@@ -105,37 +117,33 @@ border-radius: 10px</string>
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLabel" name="label">
-      <property name="geometry">
-       <rect>
-        <x>-20</x>
-        <y>0</y>
-        <width>1011</width>
-        <height>701</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="pixmap">
-       <pixmap>C:/Users/User/Downloads/346102158_237809818837113_4210465471170094184_n.jpg</pixmap>
-      </property>
-     </widget>
      <widget class="QLabel" name="MainMenuFooter">
       <property name="geometry">
        <rect>
-        <x>-50</x>
-        <y>700</y>
+        <x>-20</x>
+        <y>680</y>
         <width>1068</width>
-        <height>41</height>
+        <height>51</height>
        </rect>
       </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(170, 85, 127);</string>
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(255, 191, 0);</string>
       </property>
       <property name="text">
-       <string>www.ready2go.com</string>
+       <string>© All right reserved | www.ready2go.com. </string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -144,8 +152,8 @@ background-color: rgb(170, 85, 127);</string>
      <widget class="QFrame" name="frame">
       <property name="geometry">
        <rect>
-        <x>300</x>
-        <y>160</y>
+        <x>330</x>
+        <y>150</y>
         <width>351</width>
         <height>500</height>
        </rect>
@@ -172,7 +180,7 @@ border-radius: 20px</string>
        </property>
        <property name="font">
         <font>
-         <family>Berlin Sans FB Demi</family>
+         <family>MS Shell Dlg 2</family>
          <pointsize>20</pointsize>
          <weight>75</weight>
          <bold>true</bold>
@@ -208,7 +216,7 @@ QPushButton#pushButton_admin:pressed{
        </property>
        <property name="font">
         <font>
-         <family>Berlin Sans FB Demi</family>
+         <family>MS Shell Dlg 2</family>
          <pointsize>20</pointsize>
          <weight>75</weight>
          <bold>true</bold>
@@ -244,7 +252,7 @@ QPushButton#pushButton_user:pressed{
        </property>
        <property name="font">
         <font>
-         <family>Berlin Sans FB Demi</family>
+         <family>MS Shell Dlg 2</family>
          <pointsize>20</pointsize>
          <weight>75</weight>
          <bold>true</bold>
@@ -280,7 +288,7 @@ QPushButton#pushButton_seller:pressed{
        </property>
        <property name="font">
         <font>
-         <family>Berlin Sans FB Demi</family>
+         <family>MS Shell Dlg 2</family>
          <pointsize>20</pointsize>
          <weight>75</weight>
          <bold>true</bold>
@@ -316,7 +324,7 @@ QPushButton#pushButton_deliveryBoy:pressed{
        </property>
        <property name="font">
         <font>
-         <family>Berlin Sans FB Demi</family>
+         <family>MS Shell Dlg 2</family>
          <pointsize>20</pointsize>
          <weight>75</weight>
          <bold>true</bold>
@@ -351,7 +359,7 @@ QPushButton#pushButton_warehouse:pressed{
      <x>0</x>
      <y>0</y>
      <width>994</width>
-     <height>26</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>

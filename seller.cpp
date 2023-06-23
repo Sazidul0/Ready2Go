@@ -42,6 +42,30 @@ void Seller::on_seller_login_Button_clicked()
 
 void Seller::on_Menu_Button_clicked()
 {
-    ui->Login->setCurrentIndex(0);
+   ui->seller_working_menu->setCurrentIndex(0);
+}
+
+
+void Seller::on_seller_logout_button_clicked()
+{
+     ui->Login->setCurrentIndex(0);
+}
+
+
+void Seller::on_Add_product_clicked()
+{
+    ui->seller_working_menu->setCurrentIndex(1);
+}
+
+
+void Seller::on_Remove_product_clicked()
+{
+    ui->seller_working_menu->setCurrentIndex(2);
+}
+
+
+void Seller::on_Update_password_clicked()
+{
+    ui->seller_working_menu->setCurrentIndex(3);
 }
 
