@@ -4,9 +4,11 @@
 The Product Delivery App is a Qt C++ application that allows users to manage and track product deliveries. It provides a user-friendly interface for adding, editing, and deleting delivery information.
 
 ## Features
-- Add delivery details: Users can enter recipient information, delivery address, and item description for each delivery.
-- View delivery list: The app displays a list of all deliveries, showing relevant details such as recipient name and delivery status.
-- Edit and delete deliveries: Users have the ability to edit or remove existing delivery entries from the list.
+- User: A user can order any product and users can track their product any time.
+- Seller: There are separate login system for seller who can update & remove any product, also can update their personal information.
+- Warehouse: Warehouse manager can update product status view all sold items along with update information.
+- Delivery Boy: A separate login system with update status and view avilable products also can update informaton.
+- Admin: Admin can manage everthing including user, seller and delivery boy also all product and sells.
 - User-friendly interface: The app is designed with a clean and intuitive user interface, making it easy for users to navigate and interact with the application.
 
 ## Getting Started
@@ -16,10 +18,12 @@ The Product Delivery App is a Qt C++ application that allows users to manage and
 
 ### Installation
 1. Clone the repository to your local machine or download the ZIP file and extract it.
+```
 
 https://github.com/Sazidul0/Ready2Go.git
 
 
+```
 2. Open Qt Creator IDE and choose "Open Project". Navigate to the project directory and select the project file (e.g., `ReadyToGo.pro`).
 
 3. Build the project by clicking on the build button or using the appropriate build command.
